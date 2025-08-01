@@ -1,0 +1,12 @@
+@model IDictionary<string, List<QueueSystem.Domain.Models.TareaItem>>
+<h2>Panel de Tareas por Prioridad</h2>
+@foreach (var grupo in Model)
+{
+    <h3>@grupo.Key</h3>
+    <ul>
+        @foreach (var tarea in grupo.Value)
+        {
+            <li>@tarea.Nombre (@tarea.Estado)</li>
+        }
+    </ul>
+}
