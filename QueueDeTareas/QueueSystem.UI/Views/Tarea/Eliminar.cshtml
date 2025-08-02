@@ -1,0 +1,21 @@
+﻿@model QueueSystem.ML.Models.Tarea
+
+@{
+    ViewData["Title"] = "Eliminar Tarea";
+}
+
+<h2>¿Está seguro que desea eliminar esta tarea?</h2>
+
+<div>
+    <h4>@Model.NombreTarea</h4>
+    <p>Prioridad: @Model.Prioridad</p>
+    <p>Fecha de Ejecución: @Model.FechaEjecucion.ToShortDateString()</p>
+    <p>Estado: @Model.Estado</p>
+</div>
+
+<form asp-action="Eliminar" method="post">
+    <input type="hidden" asp-for="IdTarea" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+

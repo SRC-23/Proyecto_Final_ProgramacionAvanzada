@@ -1,0 +1,52 @@
+﻿@model List<QueueSystem.ML.Models.Tarea>
+
+@{
+    ViewData["Title"] = "Cola de Tareas";
+}
+
+<h2>Cola de Tareas ordenada por prioridad</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Prioridad</th>
+            <th>Fecha de creación</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tarea in Model)
+        {
+            <tr>
+                <td>@tarea.Nombre</td>
+                <td>
+                    @{
+                        var prioridadTexto = "";
+                        switch (tarea.Prioridad)
+                        {
+                            case 1:
+                                prioridadTexto = "<span class='badge bg-danger'>Alta</span>";
+                                break;
+                            case 2:
+                                prioridadTexto = "<span class='badge bg-warning text-dark'>Media</span>";
+                                break;
+                            case 3:
+                                prioridadTexto = "<span class='badge bg-info text-dark'>Baja</span>";
+                                break;
+                            default:
+                                prioridadTexto = "<span class='badge bg-secondary'>Desconocida</span>";
+                                break;
+                        }
+                    }
+                    @Html.Raw(prioridadTexto)
+                </td>
+                <td>@tarea.FechaEjecucion.ToShortDateString()</td>
+                <td>@tarea.Estado</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-secondary">Volver</a>
+

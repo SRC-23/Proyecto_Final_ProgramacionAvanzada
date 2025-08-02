@@ -16,6 +16,10 @@ namespace QueueSystem.ML.Interfaces
         Task AgregarAsync(Tarea tarea);
         Task ActualizarAsync(Tarea tarea);
         Task EliminarAsync(int id);
+
+        Tarea ObtenerPorId(int id);
+        void Actualizar(Tarea tarea);
+        void Eliminar(int id);
     }
 
 }

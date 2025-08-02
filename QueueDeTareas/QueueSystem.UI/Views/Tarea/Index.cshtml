@@ -4,36 +4,40 @@
     ViewData["Title"] = "Lista de Tareas";
 }
 
-<h2>@ViewData["Title"]</h2>
+<h2>Lista de Tareas</h2>
 
-<a class="btn btn-primary mb-3" href="@Url.Action("Crear", "Tarea")">Crear Nueva Tarea</a>
+<p>
+    <a asp-action="Crear" class="btn btn-success">Crear Nueva Tarea</a>
+</p>
 
-@if (!Model.Any())
-{
-    <div class="alert alert-info">No hay tareas registradas.</div>
-}
-else
-{
-    <table class="table table-bordered">
-        <thead>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Prioridad</th>
+            <th>Fecha de Ejecución</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
             <tr>
-                <th>ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>Prioridad</th>
+                <td>@item.NombreTarea</td>
+                <td>@item.Prioridad</td>
+                <td>@item.FechaCreacion.ToShortDateString()</td>
+                <td>@item.Estado</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.IdTarea" class="btn btn-sm btn-primary">Editar</a>
+                    <a asp-action="Eliminar" asp-route-id="@item.IdTarea" class="btn btn-sm btn-danger">Eliminar</a>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var tarea in Model)
-            {
-                <tr>
-                    <td>@tarea.Id</td>
-                    <td>@tarea.Titulo</td>
-                    <td>@tarea.Descripcion</td>
-                    <td>@tarea.Prioridad</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+        }
+    </tbody>
+    <p>
+        <a asp-action="ColaTareas" class="btn btn-primary">Ver Cola de Tareas</a>
+    </p>
+</table>
+
 

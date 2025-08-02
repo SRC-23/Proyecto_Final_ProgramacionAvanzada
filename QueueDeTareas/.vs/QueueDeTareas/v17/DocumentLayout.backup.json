@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.ui\\views\\tarea\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|solutionrelative:queuesystem.ui\\views\\tarea\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.ui\\views\\tarea\\cola.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|solutionrelative:queuesystem.ui\\views\\tarea\\cola.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.ui\\views\\tarea\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|solutionrelative:queuesystem.ui\\views\\tarea\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEE8A01E-FA94-4719-A601-54FF87AAD969}|QueueSystem.Domain\\QueueSystem.ML.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.domain\\interfaces\\itarearepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE8A01E-FA94-4719-A601-54FF87AAD969}|QueueSystem.Domain\\QueueSystem.ML.csproj|solutionrelative:queuesystem.domain\\interfaces\\itarearepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.ui\\controllers\\tareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|solutionrelative:queuesystem.ui\\controllers\\tareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|solutionrelative:queuesystem.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.ui\\views\\tarea\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|solutionrelative:queuesystem.ui\\views\\tarea\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE8A01E-FA94-4719-A601-54FF87AAD969}|QueueSystem.Domain\\QueueSystem.ML.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.domain\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE8A01E-FA94-4719-A601-54FF87AAD969}|QueueSystem.Domain\\QueueSystem.ML.csproj|solutionrelative:queuesystem.domain\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA2DDE31-1BD9-4EB1-9321-B73164532ED2}|QueueSystem.BL\\QueueSystem.BL.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.bl\\services\\tareaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA2DDE31-1BD9-4EB1-9321-B73164532ED2}|QueueSystem.BL\\QueueSystem.BL.csproj|solutionrelative:queuesystem.bl\\services\\tareaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8271C1B6-8E2F-4A3C-9589-017D0610B323}|QueueSystem.DAL\\QueueSystem.DAL.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.dal\\repositories\\tarearepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8271C1B6-8E2F-4A3C-9589-017D0610B323}|QueueSystem.DAL\\QueueSystem.DAL.csproj|solutionrelative:queuesystem.dal\\repositories\\tarearepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.ui\\views\\tarea\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|solutionrelative:queuesystem.ui\\views\\tarea\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|c:\\users\\sebas\\onedrive\\documents\\github\\proyecto_final_programacionavanzada\\queuedetareas\\queuesystem.ui\\views\\tarea\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D792EF17-E791-4ABE-AF44-05B9576BB382}|QueueSystem.UI\\QueueSystem.UI.csproj|solutionrelative:queuesystem.ui\\views\\tarea\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +46,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Program.cs",
-              "RelativeDocumentMoniker": "QueueSystem.UI\\Program.cs",
-              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Program.cs",
-              "RelativeToolTip": "QueueSystem.UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T01:01:41.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Crear.cshtml",
-              "RelativeDocumentMoniker": "QueueSystem.UI\\Views\\Tarea\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Crear.cshtml",
-              "RelativeToolTip": "QueueSystem.UI\\Views\\Tarea\\Crear.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCkAAAAAAAAAAAAAAA==",
+              "Title": "Cola.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Cola.cshtml",
+              "RelativeDocumentMoniker": "QueueSystem.UI\\Views\\Tarea\\Cola.cshtml",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Cola.cshtml",
+              "RelativeToolTip": "QueueSystem.UI\\Views\\Tarea\\Cola.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-02T01:00:28.828Z",
+              "WhenOpened": "2025-08-02T04:41:08.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Index.cshtml",
-              "RelativeDocumentMoniker": "QueueSystem.UI\\Views\\Tarea\\Index.cshtml",
-              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Index.cshtml",
-              "RelativeToolTip": "QueueSystem.UI\\Views\\Tarea\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-02T01:00:02.275Z",
+              "DocumentIndex": 4,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\Models\\Tarea.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\Models\\Tarea.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\Models\\Tarea.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\Models\\Tarea.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T04:37:12.804Z",
               "EditorCaption": ""
             },
             {
@@ -79,22 +82,87 @@
               "RelativeDocumentMoniker": "QueueSystem.UI\\Controllers\\TareaController.cs",
               "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Controllers\\TareaController.cs",
               "RelativeToolTip": "QueueSystem.UI\\Controllers\\TareaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T00:58:45.89Z",
+              "WhenOpened": "2025-08-02T02:07:09.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ITareaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\Interfaces\\ITareaRepositorio.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\Interfaces\\ITareaRepositorio.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\Interfaces\\ITareaRepositorio.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\Interfaces\\ITareaRepositorio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T02:03:58.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TareaServicio.cs",
               "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.BL\\Services\\TareaServicio.cs",
               "RelativeDocumentMoniker": "QueueSystem.BL\\Services\\TareaServicio.cs",
               "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.BL\\Services\\TareaServicio.cs",
               "RelativeToolTip": "QueueSystem.BL\\Services\\TareaServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswEIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T00:56:18.105Z",
+              "WhenOpened": "2025-08-02T02:01:00.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TareaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.DAL\\Repositories\\TareaRepositorio.cs",
+              "RelativeDocumentMoniker": "QueueSystem.DAL\\Repositories\\TareaRepositorio.cs",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.DAL\\Repositories\\TareaRepositorio.cs",
+              "RelativeToolTip": "QueueSystem.DAL\\Repositories\\TareaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T01:59:23.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Index.cshtml",
+              "RelativeDocumentMoniker": "QueueSystem.UI\\Views\\Tarea\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Index.cshtml",
+              "RelativeToolTip": "QueueSystem.UI\\Views\\Tarea\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-02T01:58:31.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "QueueSystem.UI\\Views\\Tarea\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Eliminar.cshtml",
+              "RelativeToolTip": "QueueSystem.UI\\Views\\Tarea\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-02T01:58:14.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Editar.cshtml",
+              "RelativeDocumentMoniker": "QueueSystem.UI\\Views\\Tarea\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\Views\\Tarea\\Editar.cshtml",
+              "RelativeToolTip": "QueueSystem.UI\\Views\\Tarea\\Editar.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-02T01:57:40.003Z",
               "EditorCaption": ""
             }
           ]

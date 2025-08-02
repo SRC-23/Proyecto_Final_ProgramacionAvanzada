@@ -1,9 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using QueueSystem.UI; // importa el DbContext
+using System;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<TareaServicio>();
 builder.Services.AddScoped<ITareaRepositorio, TareaRepositorio>();
+var connectionString = builder.Configuration.GetConnectionString("ConexionTareas");
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
 
 var app = builder.Build();
