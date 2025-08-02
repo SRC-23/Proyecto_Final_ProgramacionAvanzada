@@ -2,14 +2,47 @@ Integrantes:
 Adrián Cordero Abarca
 Rodrigez Cruz Sebastian
 
+SISTEMA DE GESTIÓN DE TAREAS
+Este proyecto es una aplicación web desarrollada con ASP.NET Core MVC que permite la gestión de tareas, mostrando una cola priorizada donde las tareas se ordenan según su prioridad (Alta, Media, Baja). Permite crear, editar, eliminar y visualizar tareas.
+
 Especificación de la arquitectura:
-GestorTareas/
-│── Controllers/      # Controladores MVC
-│── Models/           # Entidades y DTOs
-│── Views/            # Vistas Razor (HTML + C#)
-│── Data/             # DbContext y configuración EF Core
-│── appsettings.json  # Configuración de conexión
-│── Program.cs        # Configuración inicial
+QueueSystem/
+│
+├── QueueSystem.sln                 
+│
+├── QueueSystem.ML/                
+│   ├── Models/
+│   │   └── Tarea.cs 
+|   |   └── LogTarea.cs
+|   |   └── Notificacion.cs
+|   |   └── Usuario.cs
+│   └── Interfaces/
+│       └── ITareaRepositorio.cs  
+│
+├── QueueSystem.DAL/                
+│   ├── DbContexts/
+│   │   └── AppDbContext.cs        
+│   └── Repositorios/
+│       └── TareaRepositorio.cs     
+│
+├── QueueSystem.BL/                
+│   ├── Services/
+│   │   └── TareaServicio.cs         
+│
+├── QueueSystem.UI/                
+│   ├── Controllers/
+│   │   └── TareaController.cs   
+│   ├── Views/
+│   │   └── Tarea/
+│   │       ├── Index.cshtml        
+│   │       ├── Crear.cshtml        
+│   │       ├── Editar.cshtml       
+│   │       ├── Eliminar.cshtml  
+|   |       └── Cola.cshtml            
+│
+├── appsettings.json              
+├── Program.cs                     
+└── README.md                      
 
 
 
