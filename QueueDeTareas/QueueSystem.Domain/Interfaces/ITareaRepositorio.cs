@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using QueueSystem.ML.Models;
 
-namespace QueueSystem.Domain.Interfaces
+
+namespace QueueSystem.ML.Interfaces
 {
     public interface ITareaRepositorio
     {
-        Task<List<TareaItem>> ObtenerTodasAsync();
-        Task<TareaItem> ObtenerPorIdAsync(int id);
-        Task AgregarAsync(TareaItem tarea);
-        Task ActualizarAsync(TareaItem tarea);
+        Task<List<Tarea>> ObtenerTodasAsync();
+        Task<Tarea> ObtenerPorIdAsync(int id);
+        Task AgregarAsync(Tarea tarea);
+        Task ActualizarAsync(Tarea tarea);
         Task EliminarAsync(int id);
     }
 

@@ -8,10 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\QueueSystem.UI\QueueSystem.UI.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
+	<ProjectReference Include="..\QueueSystem.ML\QueueSystem.ML.csproj" />
   </ItemGroup>
 
   <ItemGroup>

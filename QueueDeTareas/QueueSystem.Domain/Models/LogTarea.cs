@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace QueueSystem.Domain.Models
+namespace QueueSystem.ML.Models
 {
     public class LogTarea
     {
@@ -15,7 +15,7 @@ namespace QueueSystem.Domain.Models
         public DateTime? FechaFin { get; set; }
         public string Estado { get; set; }
         public string Mensaje { get; set; }
-        public TareaItem Tarea { get; set; }
+        public Tarea Tarea { get; set; }
     }
 
 }

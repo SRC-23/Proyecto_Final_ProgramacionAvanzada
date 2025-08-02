@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace QueueSystem.Domain.Models
+namespace QueueSystem.ML.Models
 {
     public class Notificacion
     {
@@ -15,6 +15,6 @@ namespace QueueSystem.Domain.Models
         public string Tipo { get; set; }
         public string Destinatario { get; set; }
         public string Descripcion { get; set; }
-        public TareaItem Tarea { get; set; }
+        public Tarea Tarea { get; set; }
     }
 }

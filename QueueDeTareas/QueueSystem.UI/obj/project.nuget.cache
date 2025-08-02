@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "MdT5zxZ4BxI=",
-  "success": true,
+  "dgSpecHash": "s/aisSOwVnU=",
+  "success": false,
   "projectFilePath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\QueueSystem.UI.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "No se puede leer la información del proyecto de \"QueueSystem.UI\": \"X.Y.Z\" no es una cadena de versión válida.",
+      "projectPath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\QueueSystem.UI.csproj",
+      "filePath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\QueueSystem.UI.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

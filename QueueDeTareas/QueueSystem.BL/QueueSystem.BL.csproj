@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\QueueSystem.DAL\QueueSystem.DAL.csproj" />
-    <ProjectReference Include="..\QueueSystem.Domain\QueueSystem.Domain.csproj" />
+    <ProjectReference Include="..\QueueSystem.Domain\QueueSystem.ML.csproj" />
     <ProjectReference Include="..\QueueSystem.UI\QueueSystem.UI.csproj" />
   </ItemGroup>
 

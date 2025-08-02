@@ -1,0 +1,39 @@
+﻿@model IEnumerable<QueueSystem.ML.Models.Tarea>
+
+@{
+    ViewData["Title"] = "Lista de Tareas";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a class="btn btn-primary mb-3" href="@Url.Action("Crear", "Tarea")">Crear Nueva Tarea</a>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No hay tareas registradas.</div>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Prioridad</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tarea in Model)
+            {
+                <tr>
+                    <td>@tarea.Id</td>
+                    <td>@tarea.Titulo</td>
+                    <td>@tarea.Descripcion</td>
+                    <td>@tarea.Prioridad</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QueueSystem.Domain.Models
+namespace QueueSystem.ML.Models
 {
-    public class TareaItem
+    public class Tarea
     {
             public int IdTarea { get; set; }
             public string Titulo { get; set; }

@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using QueueSystem.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using QueueSystem.ML.Models;
 
 namespace QueueSystem.DAL.DbContexts
 {

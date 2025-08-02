@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QueueSystem.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90d28ef8258ecfd4282f1db99568dea8b2fb451e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54e2fd8f30094b2406f66dee3dd5a514ebc5816c")]
 [assembly: System.Reflection.AssemblyProductAttribute("QueueSystem.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QueueSystem.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QueueSystem.Domain.Models
+namespace QueueSystem.ML.Models
 {
     public class Usuario
     {

@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using QueueSystem.ML.Interfaces;
+using QueueSystem.ML.Models;
+
 
 namespace QueueSystem.DAL.Repositories
 {

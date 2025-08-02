@@ -33,6 +33,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\QueueSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\QueueSystem.Domain.csproj"
+              },
               "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\QueueSystem.UI.csproj": {
                 "projectPath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\QueueSystem.UI.csproj"
               }

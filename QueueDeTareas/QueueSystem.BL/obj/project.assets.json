@@ -1008,6 +1008,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.ML\\QueueSystem.ML.csproj": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
           "QueueSystem.UI": "1.0.0"
@@ -1019,7 +1020,7 @@
           "bin/placeholder/QueueSystem.DAL.dll": {}
         }
       },
-      "QueueSystem.Domain/1.0.0": {
+      "QueueSystem.ML/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1027,24 +1028,21 @@
           "QueueSystem.UI": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/QueueSystem.Domain.dll": {}
+          "bin/placeholder/QueueSystem.ML.dll": {}
         },
         "runtime": {
-          "bin/placeholder/QueueSystem.Domain.dll": {}
+          "bin/placeholder/QueueSystem.ML.dll": {}
         }
       },
       "QueueSystem.UI/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": "Unsupported,Version=v0.0",
         "compile": {
           "bin/placeholder/QueueSystem.UI.dll": {}
         },
         "runtime": {
           "bin/placeholder/QueueSystem.UI.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -2836,10 +2834,10 @@
       "path": "../QueueSystem.DAL/QueueSystem.DAL.csproj",
       "msbuildProject": "../QueueSystem.DAL/QueueSystem.DAL.csproj"
     },
-    "QueueSystem.Domain/1.0.0": {
+    "QueueSystem.ML/1.0.0": {
       "type": "project",
-      "path": "../QueueSystem.Domain/QueueSystem.Domain.csproj",
-      "msbuildProject": "../QueueSystem.Domain/QueueSystem.Domain.csproj"
+      "path": "../QueueSystem.Domain/QueueSystem.ML.csproj",
+      "msbuildProject": "../QueueSystem.Domain/QueueSystem.ML.csproj"
     },
     "QueueSystem.UI/1.0.0": {
       "type": "project",
@@ -2850,7 +2848,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "QueueSystem.DAL >= 1.0.0",
-      "QueueSystem.Domain >= 1.0.0",
+      "QueueSystem.ML >= 1.0.0",
       "QueueSystem.UI >= 1.0.0"
     ]
   },
@@ -2890,8 +2888,8 @@
             "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.DAL\\QueueSystem.DAL.csproj": {
               "projectPath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.DAL\\QueueSystem.DAL.csproj"
             },
-            "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\QueueSystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\QueueSystem.Domain.csproj"
+            "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\QueueSystem.ML.csproj": {
+              "projectPath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.Domain\\QueueSystem.ML.csproj"
             },
             "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\QueueSystem.UI.csproj": {
               "projectPath": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.UI\\QueueSystem.UI.csproj"
@@ -2933,5 +2931,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.ML\\QueueSystem.ML.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\sebas\\OneDrive\\Documents\\GitHub\\Proyecto_Final_ProgramacionAvanzada\\QueueDeTareas\\QueueSystem.ML\\QueueSystem.ML.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
