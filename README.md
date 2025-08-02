@@ -50,6 +50,7 @@ Listado de librerías/paquetes NuGet utilizados:
 - Microsoft.EntityFrameworkCore
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
+- Microsoft.AspNetCore.Mvc	
 - Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 
 
 
